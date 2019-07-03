@@ -1,0 +1,2 @@
+% Add paths
+addpath (genpath('./'));
