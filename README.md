@@ -1,1 +1,2 @@
 # Reduced-Order-Modeling-of-Transport-equation
+Data-driven simulation of transport equation is presented here. The main idea behind the approach is the build a Reduced-Order Model (ROM) based on a previous data snapshot. By use of Proper Orthogonal Decomposition, the first few principle modes with most of the energy (99%) are chosen and the problem is projected onto such small orthogonal basis.  A Galerkin weak form on the reduced order model is defined and solved on a simple triangular finite element mesh. 
